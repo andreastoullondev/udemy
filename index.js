@@ -1,14 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(){
 
-     let numeroAtual = 0;
+    let numeroAtual = 0;
 
 
-     const numeroNoHtml = document.getElementById('numero-atual')
-     const botaoSoma = document.getElementById('botao-que-soma')
-     const botaoSub = document.getElementById('botao-que-subtrai')
-    
+    const numeroNoHtml = document.getElementById('numero-atual')
+    const botaoSoma = document.getElementById('botao-que-soma')
+    const botaoSub = document.getElementById('botao-que-subtrai')
+     
     function atualizaNumeroNoHTML(){
-        numeroNoHtml.textContent = numeroAtual
+        numeroNoHtml.textContent = numeroAtual;
+
+        if(numeroAtual === 10 || numeroAtual === -10){
+            alert("tu é bom")
+        }
     }
 
     botaoSoma.addEventListener('click', function(){
