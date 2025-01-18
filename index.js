@@ -28,18 +28,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     atualizaNumeroNoHTML()
 });
-// concat quando ele é usado ele retorno uma array com tudo dentro sem modificar as originais;
-
-const array1 = [5, 2, 3];
-const array2 = [8, 1, 4];
-const array3 = [6, 7, 9];
-
-//const resultado = array1.concat(array2, array3);
-//array1.unshift(array2, array3) um dado no começo da array nesse casso adicionou a string array2 e 3
-//array1.shift(3) reomove o primeiro dado da array ,não consegui remover outro 
-// metodo with me permiti acessar um escopo de um objeto pelo meu objeto atual(gostei e estou pensando como vou usar)
-//const resultado = array1.join(', '); usado para unir elementos de uma array em uma unica string 
-console.log(resultado);
 
 //Fibonacci
 let penultimo = 0;
