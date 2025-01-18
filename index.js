@@ -10,8 +10,9 @@ document.addEventListener("DOMContentLoaded", function(){
     function atualizaNumeroNoHTML(){
         numeroNoHtml.textContent = numeroAtual;
 
-        if(numeroAtual === 10 || numeroAtual === -10){
-            alert("tu é bom")
+        if(numeroAtual === 11 || numeroAtual === -11){
+            numeroAtual = 0;
+            atualizaNumeroNoHTML();
         }
     }
 
