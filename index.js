@@ -52,10 +52,6 @@ function lampBroken (){
     lamp.src = '/img/quebrada.jpg';
 }
 
-
-
-
-
 turnOn.addEventListener( 'click', lampOn);
 turnOff.addEventListener( 'click', lampOff);
 lamp.addEventListener('mouseover',lampOn);
@@ -63,7 +59,10 @@ lamp.addEventListener( 'mouseleave', lampOff);
 lamp.addEventListener('dblclick', lampBroken);
 
 
-
+function abriModal(){
+    const modal = document.getElementById('janela-modal');
+    modal.classList.add('abrir')
+}
 
 
 
