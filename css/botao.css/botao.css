@@ -59,7 +59,7 @@ p{
         top: 0;
         left: 0;
         background-color: aqua;
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: center;
         z-index: 999;
@@ -88,5 +88,9 @@ p{
        color: blue;
        cursor: pointer;
 
+}
+
+.janela-modal.abrir{
+    display: flex;   
 }
 
