@@ -44,7 +44,7 @@ function lampOn(){
     
 }
 function lampOff(){
-    if(!islampBroken){
+    if(!islampBroken ()){
         lamp.src = '/img/desligada.jpg';
     }
 }
