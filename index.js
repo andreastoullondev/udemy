@@ -29,6 +29,16 @@ document.addEventListener("DOMContentLoaded", function(){
     atualizaNumeroNoHTML()
 });
 
+const turnOn = document.getElementById('turnOn');
+const turnOff = document.getElementById('turnOff');
+const lamp = document.getElementById('lamp');
+
+
+
+
+
+
+
 //Fibonacci
 let penultimo = 0;
 
