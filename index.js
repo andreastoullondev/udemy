@@ -92,5 +92,21 @@ for(let contador = 0;contador <=ciclosDesejados;contador++){
 }
 console.log(proporcao);
 
+let mensagem; // mensagem que será exibida no console
+let nome;// definir a variavel fora do escopo
+function mercado (nome = "toullon", sobrenome){
+    nome = "Toullon";//alterando nome dentro da função
+    sobrenome = "Andreas";
+}
+mercado();//chamando a função
+switch (nome) {//usando a variavel nome que foi alterada pela função
+    case nome:
+    mensagem = "ta dando certo";  
+        break;
 
+    default:
+        mensagem = "Não ta longe do caminho";
+        break;
+}
 
+console.log(mensagem) // exibe no console
