@@ -4,16 +4,27 @@
         justify-content: space-evenly;
         gap: 10px;
         
-    }
+}
     
 button{
         font-size: 30px; 
         padding: 10px 20px;
         margin: 10px; 
 
-    }
+}
     
 p{
         font-size: 30px; 
         margin: 10px; 
-    }
+}
+
+
+.mn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mn button {
+    border-radius: 10% 0 0 50%;
+}
