@@ -3,18 +3,19 @@ document.addEventListener("DOMContentLoaded", function(){
     let numeroAtual = 0;
 
 
-    const numeroNoHtml = document.getElementById('numero-atual',()=>{
-
-    });
+    const numeroNoHtml = document.getElementById('numero-atual',)
     const botaoSoma = document.getElementById('botao-que-soma')
     const botaoSub = document.getElementById('botao-que-subtrai')
      
     function atualizaNumeroNoHTML(){
         numeroNoHtml.textContent = numeroAtual;
-
-        if(numeroAtual === 11 || numeroAtual === -11){
+        if(numeroAtual === 15 || numeroAtual === -15){
             numeroAtual = 0;
             atualizaNumeroNoHTML();
+        }else if( numeroAtual >= 10){
+            lampOn();
+        }else if( numeroAtual <= -10){
+            lampBroken();
         }
     }
 
