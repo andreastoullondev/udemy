@@ -53,7 +53,7 @@ function lampBroken (){
     lamp.src = '/img/quebrada.jpg';
 }
 
-turnOnOff.addEventListener( 'click', lampOn);
+turnOnOff.addEventListener( 'click', lampOnOff);
 lamp.addEventListener('mouseover',lampOn);
 lamp.addEventListener( 'mouseleave', lampOff);
 lamp.addEventListener('dblclick', lampBroken);
