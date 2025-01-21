@@ -53,8 +53,9 @@ function lampBroken (){
     lamp.src = '/img/quebrada.jpg';
 }
 function lampOnOff(){
-    if(turnOnOff.textContent == 'ligar'){
-        lampOn
+    if(turnOnOff.textContent == 'Ligar'){
+        lampOn();
+        turnOnOff.textContent = 'Desligar'
     }
 }
 
