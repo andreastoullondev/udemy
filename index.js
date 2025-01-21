@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(){
     atualizaNumeroNoHTML()
 });
 
-const turnOn = document.getElementById('turnOn');
+const turnOnOff = document.getElementById('turnOnOff');
 const lamp = document.getElementById('lamp');
 
 function islampBroken (){
@@ -53,8 +53,7 @@ function lampBroken (){
     lamp.src = '/img/quebrada.jpg';
 }
 
-turnOn.addEventListener( 'click', lampOn);
-turnOff.addEventListener( 'click', lampOff);
+turnOnOff.addEventListener( 'click', lampOn);
 lamp.addEventListener('mouseover',lampOn);
 lamp.addEventListener( 'mouseleave', lampOff);
 lamp.addEventListener('dblclick', lampBroken);
