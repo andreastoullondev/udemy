@@ -52,6 +52,11 @@ function lampOff(){
 function lampBroken (){
     lamp.src = '/img/quebrada.jpg';
 }
+function lampOnOff(){
+    if(turnOnOff.textContent == 'ligar'){
+        lampOn
+    }
+}
 
 turnOnOff.addEventListener( 'click', lampOnOff);
 lamp.addEventListener('mouseover',lampOn);
