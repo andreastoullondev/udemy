@@ -55,7 +55,11 @@ function lampBroken (){
 function lampOnOff(){
     if(turnOnOff.textContent == 'Ligar'){
         lampOn();
-        turnOnOff.textContent = 'Desligar'
+        turnOnOff.textContent = 'Desligar';
+    }else{
+        lampOnOff.textContent == 'Desligar';
+        lampOff();
+        turnOnOff.textContent = 'Ligar';
     }
 }
 
