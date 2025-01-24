@@ -108,7 +108,7 @@ for(let contador = 0;contador <=ciclosDesejados;contador++){
 }
 console.log(proporcao);
 
-let mensagem; // mensagem que será exibida no console
+let mensagem;//  mensagem que será exibida no console
 let nome;// definir a variavel fora do escopo
 function mercado (nome = "toullon", sobrenome = "santos"){
     nome = "Giu";
@@ -125,4 +125,4 @@ switch (nome == nome) {//usando a variavel nome que foi alterada pela função
         break;
 }
 
-console.log(mensagem) // exibe no console
+console.log(mensagem)
