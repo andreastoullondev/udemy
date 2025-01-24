@@ -110,12 +110,12 @@ console.log(proporcao);
 
 let mensagem; // mensagem que será exibida no console
 let nome;// definir a variavel fora do escopo
-function mercado (nome = "toullon", sobrenome){
-    nome = "Toullon";//alterando nome dentro da função
-    sobrenome = "Andreas";
+function mercado (nome = "toullon", sobrenome = "santos"){
+    nome = "Giu";
+    sobrenome = "santos";
 }
 mercado();//chamando a função
-switch (nome) {//usando a variavel nome que foi alterada pela função
+switch (nome == nome) {//usando a variavel nome que foi alterada pela função
     case nome:
     mensagem = "ta dando certo";  
         break;
