@@ -130,7 +130,10 @@ console.log(mensagem)
 
 
 function batePalmas(){
-        console.log("palma")
+for(let contador = 0;contador < 10; contador++){
+    console.log("palma")
+}
+        
 }
 
 batePalmas();
