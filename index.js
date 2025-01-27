@@ -129,11 +129,14 @@ console.log(mensagem)
 
 
 
-function batePalmas(){
+function batePalmas({ tipodePalma }){
 for(let contador = 0;contador < 10; contador++){
-    console.log("palma")
+    let palmas 
+
+    console.log(tipodePalma)
+    
 }
         
 }
 
-batePalmas();
+batePalmas({ tipodePalma: "ploft"});
