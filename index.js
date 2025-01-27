@@ -126,3 +126,11 @@ switch (nome == nome) {//usando a variavel nome que foi alterada pela função
 }
 
 console.log(mensagem)
+
+
+
+function batePalmas(){
+        console.log("palma")
+}
+
+batePalmas();
