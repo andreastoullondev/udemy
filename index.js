@@ -140,7 +140,7 @@ function batePalmas({ tipodePalma }, callback){
 if(lampOn){
     return palmas;
 }else if(lampBroken){
-    
+
 }
     
          
@@ -152,3 +152,11 @@ function callback(){
 
 const  resultado = batePalmas({ tipodePalma: "ploft"});
 console.log(resultado);
+
+function compraProdutos ({iddoProduto, quantidade}){
+
+}
+
+
+
+
