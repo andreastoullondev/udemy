@@ -155,15 +155,18 @@ console.log(resultado);
 
 function compraProdutos ({iddoProduto, quantidade}){
 
+    const estoqueAtual = verificarEstoque(iddoProduto)
+
 }
 
 
 function verificarEstoque( idProduto) {
-
+    const estoque = Math.floor(Math.random() * 10) + 1;
+    return estoque
 }
 
-function attEstoque(){
-    
+function attEstoque( {idProduto, novaQuantidade }){
+
 }
 
 
