@@ -139,6 +139,8 @@ function batePalmas({ tipodePalma }, callback){
 }
 if(lampOn){
     return palmas;
+}else if(lampBroken){
+    
 }
     
          
