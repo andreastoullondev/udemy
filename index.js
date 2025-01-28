@@ -129,14 +129,24 @@ console.log(mensagem)
 
 
 
-function batePalmas({ tipodePalma }){
-for(let contador = 0;contador < 10; contador++){
-    let palmas 
+function batePalmas({ tipodePalma }, callback){
+    let palmas = ""
 
-    console.log(tipodePalma)
+    for(let contador = 0;contador < 20; contador++){
+   palmas = palmas + tipodePalma + " , "
+  
+   
+}
+if(lampOn){
+    return palmas;
+}
     
-}
-        
+         
 }
 
-batePalmas({ tipodePalma: "ploft"});
+function callback(){
+    console.log("deu certo");
+}
+
+const  resultado = batePalmas({ tipodePalma: "ploft"});
+console.log(resultado);
