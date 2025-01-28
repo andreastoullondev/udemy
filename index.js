@@ -158,5 +158,13 @@ function compraProdutos ({iddoProduto, quantidade}){
 }
 
 
+function verificarEstoque( idProduto) {
+
+}
+
+function attEstoque(){
+    
+}
+
 
 
