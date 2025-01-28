@@ -155,19 +155,31 @@ console.log(resultado);
 
 function compraProdutos ({iddoProduto, quantidade}){
 
-    const estoqueAtual = verificarEstoque(iddoProduto)
+    try {
+        const estoqueAtual = verificarEstoque(iddoProduto)
+        if( estoqueAtual <  quantidade){
+        throw new Error ("estoque insuficiente")
+    }
+    const novoEstoque = estoqueAtual - quantidade
+    attEstoque({idProduto:iddoProduto, novaQuantidade: novoEstoque})
 
+     console.log('compra realizada')
+    } catch (error) {
+        console.log(error)
+    }finally{
+        console.log("e-mail:suporte@nomedaempresa.com.br ")
+    }
 }
 
 
 function verificarEstoque( idProduto) {
-    const estoque = Math.floor(Math.random() * 10) + 1;
+    const estoque = 15//Math.floor(Math.random() * 10) + 1
     return estoque
 }
 
 function attEstoque( {idProduto, novaQuantidade }){
-
+    console.log('estoque atualizado')
 }
 
 
-
+compraProdutos({iddoProduto: 2, quantidade: 20})
