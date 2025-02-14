@@ -183,3 +183,22 @@ function attEstoque( {idProduto, novaQuantidade }){
 
 
 compraProdutos({iddoProduto: 2, quantidade: 20})
+
+let pessoa ={
+    nome: "Andreas",
+    sobrenome: "Toullon",
+    cidade: "Porto Alegre",
+
+    apresentar: () => {
+        console.log('Qual a boa ?')
+
+    },
+
+}
+
+Object.assign(pessoa, {
+    apelido: "robo",
+    idade: 26
+})
+
+console.log(pessoa)
