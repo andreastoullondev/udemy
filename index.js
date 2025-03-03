@@ -221,4 +221,4 @@ const personInString = JSON.stringify(person)
 const personInJson = JSON.parse(person)
 
 console.log(personInJson)
-console.log(personInString)
+console.log(personInString)// coisa errada aqui  
