@@ -204,3 +204,13 @@ Object.assign(pessoa, {
 })
 
 console.log(pessoa)
+
+
+const person = {
+    
+    "nome": "Andreas",
+    "idade": "26",
+    "cidade": "Porto Alegre",
+    "interesses": ["Javascript", "empreemdedor", "money"],
+    "cabelo": false
+}
