@@ -184,7 +184,7 @@ function attEstoque( {idProduto, novaQuantidade }){
 
 compraProdutos({iddoProduto: 2, quantidade: 20})
 
-let pessoa ={
+const pessoa ={
     nome: "Andreas",
     sobrenome: "Toullon",
     cidade: "Porto Alegre",
@@ -195,6 +195,8 @@ let pessoa ={
     },
 
 }
+
+//pessoa["apresentar"] = "coe menor?"Alteração de propriedade já existe 
 
 Object.assign(pessoa, {
     apelido: "robo",
